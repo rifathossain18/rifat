@@ -72,7 +72,7 @@ export const About: React.FC<AboutProps> = ({ onContactClick }) => {
             className="lg:col-span-5 flex justify-center"
           >
             <Profile3DCard
-              imageSrc="/assets/me.png"
+              imageSrc={`${import.meta.env.BASE_URL}assets/me.png`}
               className="w-full max-w-sm sm:max-w-md"
             />
           </motion.div>

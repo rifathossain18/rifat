@@ -167,7 +167,7 @@ ${formData.projectDetails}`;
               <div className="flex items-center gap-3.5">
                 <div className="w-12 h-12 rounded-xl overflow-hidden border-2 border-blue-500/40 shadow-md shrink-0">
                   <img
-                    src="/assets/me.png"
+                    src={`${import.meta.env.BASE_URL}assets/me.png`}
                     alt="Rifat"
                     className="w-full h-full object-cover"
                   />

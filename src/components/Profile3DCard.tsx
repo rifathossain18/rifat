@@ -9,7 +9,7 @@ interface Profile3DCardProps {
 
 export const Profile3DCard: React.FC<Profile3DCardProps> = ({
   className = '',
-  imageSrc = '/assets/me.png'
+  imageSrc = `${import.meta.env.BASE_URL}assets/me.png` 
 }) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const [rotateX, setRotateX] = useState(0);
