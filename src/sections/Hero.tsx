@@ -45,7 +45,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white dark:bg-[#111827] border border-slate-200 dark:border-[#1E293B] text-xs font-medium text-slate-700 dark:text-slate-300 shadow-sm">
             <div className="relative w-6 h-6 rounded-full overflow-hidden border-2 border-blue-500/60 shadow-sm shrink-0">
               <img
-                src="/assets/aistudio/Confident_Executive_Office_Portrait_21326415.png"
+                src="/assets/me.png"
                 alt="Rifat"
                 className="w-full h-full object-cover"
               />

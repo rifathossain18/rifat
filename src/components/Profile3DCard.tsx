@@ -9,7 +9,7 @@ interface Profile3DCardProps {
 
 export const Profile3DCard: React.FC<Profile3DCardProps> = ({
   className = '',
-  imageSrc = '/assets/aistudio/Confident_Executive_Office_Portrait_21326415.png'
+  imageSrc = '/assets/me.png'
 }) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const [rotateX, setRotateX] = useState(0);
